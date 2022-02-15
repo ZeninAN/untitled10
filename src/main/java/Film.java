@@ -4,5 +4,11 @@ public class Film {
     private String productName;
     private int productPrice;
     private int count;
+    public Film(){
 
+    }
+
+    public Film(int id) {
+        this.id = id;
+    }
 }

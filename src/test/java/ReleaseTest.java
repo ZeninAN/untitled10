@@ -6,16 +6,16 @@ class ReleaseTest {
 
     @Test
     public void test() {
-        Film first = new Film();
-        Film second = new Film();
-        Film third = new Film();
-        Film four = new Film();
-        Film fifth = new Film();
-        Film six = new Film();
-        Film seven = new Film();
-        Film eight = new Film();
-        Film nine = new Film();
-        Film ten = new Film();
+        Film first = new Film(1);
+        Film second = new Film(2);
+        Film third = new Film(3);
+        Film four = new Film(4);
+        Film fifth = new Film(5);
+        Film six = new Film(6);
+        Film seven = new Film(7);
+        Film eight = new Film(8);
+        Film nine = new Film(9);
+        Film ten = new Film(10);
 
         Release rel = new Release();
 
@@ -36,11 +36,11 @@ class ReleaseTest {
     }
     @Test
     void getAllMaximum2() {
-        Film first = new Film();
-        Film second = new Film();
-        Film third = new Film();
-        Film fourth = new Film();
-        Film fifth = new Film();
+        Film first = new Film(1);
+        Film second = new Film(2);
+        Film third = new Film(3);
+        Film fourth = new Film(4);
+        Film fifth = new Film(5);
 
 
         Release rel = new Release(4);
