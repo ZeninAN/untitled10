@@ -5,7 +5,6 @@ public class Film {
     private int productPrice;
     private int count;
     public Film(){
-
     }
 
     public Film(int id) {
