@@ -52,7 +52,7 @@ class ReleaseTest {
 
 
         Film[] expected = {fifth,fourth,third,second,first};
-        Film[] actual = rel.getAll();
+        Film[] actual = rel.findLast();
 
         assertArrayEquals(expected, actual);
     }
@@ -83,7 +83,7 @@ class ReleaseTest {
         rel.save(ten);
 
         Film[] expected = {ten,nine,eight,seven,six};
-        Film[] actual = rel.getAll();
+        Film[] actual = rel.findLast();
         assertArrayEquals(expected, actual);
     }
 }

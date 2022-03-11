@@ -1,6 +1,6 @@
 public class Release {
     private Film[] items = new Film[0];
-    private int limit = 5;
+    private int limit = 10;
 
     public Release() {
     }
@@ -22,7 +22,7 @@ public class Release {
         return items;
     }
 
-    public Film[] getAll() {
+    public Film[] findLast() {
         int resultLength = Math.min(items.length,limit);
         Film[] result = new Film[resultLength];
         for (int i = 0; i < result.length; i++) {
